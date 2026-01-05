@@ -5,8 +5,6 @@ st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
 color = st.get_option("theme.primaryColor")
 
 #option
-if st.button("Home"):
-    st.switch_page("app.py")
 if st.button("Catatan"):
     st.switch_page("pages/page_1.py")
 if st.button("Kalkulasi"):
