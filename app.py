@@ -18,7 +18,7 @@ expander.write('''
 expander.image("https://stuyspec-media.s3.us-east-2.amazonaws.com/rewrite_media/81ebc150-d809-11ed-952b-f5fad1466d2c.jpg")
 
 #option
-if st.button("Catatan"):
+if st.button("Catatan", width="content"):
     st.switch_page("pages/catatan_1.py", query_params={"page": "catatan"})
-if st.button("Kalkulasi"):
+if st.button("Kalkulasi", width="content"):
     st.switch_page("pages/kalkulasi_2.py", query_params={"page": "kalkulasi"})
