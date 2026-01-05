@@ -6,6 +6,6 @@ color = st.get_option("theme.primaryColor")
 
 #option
 if st.button("Catatan"):
-    st.switch_page("pages/page_1.py")
+    st.switch_page("page_1.py")
 if st.button("Kalkulasi"):
-    st.switch_page("pages/page_2.py")
+    st.switch_page("page_2.py")
