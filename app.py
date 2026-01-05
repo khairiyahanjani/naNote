@@ -7,6 +7,6 @@ def page_1():
     st.title("Catatan praktik")
     st.page_link("Kalkulasi Hasil PSA", query_params={"index.html": "Catatan praktik"})
 
-pg = st.navigation([Catatan praktik, "Kalkulasi Hasil PSA"])
+pg = st.navigation([page_1, "Kalkulasi Hasil PSA"])
 pg.run()
 
