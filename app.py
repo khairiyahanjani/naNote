@@ -6,12 +6,9 @@ st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
 #option
 def Kalkulasi():
     st.title("Kalkulasi Hasil PSA")
-
+def Catatan():
+    
 pg = st.navigation(["page_1.py", Kalkulasi])
 pg.run()
-
-def Catatan():
-    st.title("Mulai Catat")
-
 pg = st.navigation(["page_2.py", Catatan])
 pg.run()
