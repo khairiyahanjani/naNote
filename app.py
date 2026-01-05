@@ -7,5 +7,5 @@ st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
 def page_2():
     st.title("Kalkulasi Hasil PSA")
 
-pg = st.navigation(["page_1.py", Kalkulasi Hasil PSA])
+pg = st.navigation(["page_1.py", page_2])
 pg.run()
