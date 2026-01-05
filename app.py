@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("_naNote_ is :blue[cool] :sunglasses:")
 st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
-st.background("dinokuning.jpg")
+st.imagebackground("dinokuning.jpg")
 
 #Information tentang apk
 expander = st.expander("🐡Apa itu naNote?")
