@@ -9,9 +9,4 @@ def page_1():
 pg = st.navigation([page_1, "page_2.py"])
 pg.run()
 
-def page_2():
-    st.title("Kalkulasi Hasil PSA")
-    st.page_link("page_1.py", query_params={"page_2.py": "Kalkulasi Hasil PSA"})
-pg = st.navigation([page_2, "page_1.py"])
-pg.run()
 
