@@ -3,10 +3,5 @@ import streamlit as st
 st.title("_naNote_ is :blue[cool] :sunglasses:")
 st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
 
-def page_1():
-    st.title("Catatan praktik")
-    st.page_link("page_2.py", query_params={"page_1.py": "Catatan praktik"})
-pg = st.navigation([Home, "page_2.py"])
-pg.run()
-
-
+st.link_button("Catatan Praktik", "page_1.py")
+st.link_button("Kalkulasi Hasil PSA", "page_2.py")
