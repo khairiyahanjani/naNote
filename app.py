@@ -12,7 +12,6 @@ expander.write('''
     hasil data PSA yang di dapat.
 ''')
 expander.image("https://www.microtrac.com/images/5545e7b51b645ef7b0b93088a878cd6c/1200x/max/alpha/pic-wave-ii.jpg")
-
 expander.write('''
     dan juga membantu praktikkan mencatat data - data saat praktik berlangsung!
 ''')
