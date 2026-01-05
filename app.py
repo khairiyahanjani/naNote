@@ -2,10 +2,10 @@ import streamlit as st
 
 st.title("_naNote_ is :blue[cool] :sunglasses:")
 st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
-color = st.get_option("theme.primaryColor")
+st.image("", caption="Sunrise by the mountains")
 
 #Information tentang apk
-expander = st.expander("Apa itu naNote?")
+expander = st.expander("🐡Apa itu naNote?")
 expander.write('''
     naNote merupakan aplikasi berbasis web yang dirancang oleh mahasiswa/i Politeknik AKA Bogor
     untuk membantu praktikkan mencatat saat praktik dan membantu praktikkan mengkalkulasi
