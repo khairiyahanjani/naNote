@@ -5,13 +5,13 @@ st.header("Catatan Praktik dan Kalkulasi Hasil PSA")
 
 def page_1():
     st.title("Catatan praktik")
-    st.page_link("page_2", query_params={"page_1": "Catatan praktik"})
-pg = st.navigation([page_1, "page_2"])
+    st.page_link("page_2.py", query_params={"page_1.py": "Catatan praktik"})
+pg = st.navigation([page_1, "page_2.py"])
 pg.run()
 
 def page_2():
     st.title("Kalkulasi Hasil PSA")
-    st.page_link("page_1", query_params={"page_2": "Kalkulasi Hasil PSA"})
-pg = st.navigation([page_2, "page_1"])
+    st.page_link("page_1.py", query_params={"page_2.py": "Kalkulasi Hasil PSA"})
+pg = st.navigation([page_2, "page_1.py"])
 pg.run()
 
