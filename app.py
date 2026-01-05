@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.write("This is a naNote")
-st.write("_naNote_ is :blue[cool] :sunglasses:")
+st.title("This is a title")
+st.title("_naNote_ is :blue[cool] :sunglasses:")
 
