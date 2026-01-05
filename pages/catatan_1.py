@@ -51,7 +51,7 @@ st.title("📒 Aplikasi Catatan")
 
 with st.form("note_form"):
     title = st.text_input("Judul Catatan")
-    content = st.text_area("Isi Catatan", height=150)
+    content = st.text_area("Isi Catatan", height=2000)
     submitted = st.form_submit_button("Simpan Catatan")
 
     if submitted:
