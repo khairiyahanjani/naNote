@@ -8,5 +8,5 @@ def page_1():
     st.title("Catatan")
     st.page_link("page_2.py", query_params={"page_1.py": "Catatan"})
 
-pg = st.navigation([page_1, "page_2.py"])
+pg = st.navigation([page_1, "page_1.py"])
 pg.run()
